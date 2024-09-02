@@ -1,0 +1,31 @@
+Se o repositório Git ainda não estiver inicializado no seu projeto, faça o seguinte:
+
+1. Abra o terminal integrado no VSCode (atalho: Ctrl + ).
+2. Navegue até o diretório do seu projeto Java:
+
+(cd /caminho/para/o/projeto)
+
+3. Inicialize o repositório Git:
+
+(git init) - Isso cria um repositório Git local no diretório do seu projeto.
+
+4. Para adicionar todos os arquivos novos e modificados ao commit:
+
+(git add .)
+
+5. Agora, crie um commit com uma mensagem descritiva:
+
+(git commit -m "Mensagem do commit")
+
+6. Se você ainda não conectou o repositório local ao GitHub, adicione o repositório remoto:
+
+(git remote add origin https://github.com/username/repository.git) - Nota: Substitua username pelo seu nome de usuário do GitHub e repository pelo nome do repositório no GitHub.
+
+7. Verifique se o repositório remoto foi adicionado corretamente:
+
+(git remote -v)
+
+8. Para enviar (push) as suas alterações para o repositório GitHub, use o comando:
+
+(git push -u origin master)
+
